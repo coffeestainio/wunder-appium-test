@@ -8,7 +8,7 @@
   "author": "Pablo Calvo",
   "license": "ISC",
   "dependencies": {
-    "appium":"^1.9.1"
+    "appium": "^1.9.1"
   },
   "devDependencies": {
     "chai": "^4.2.0",

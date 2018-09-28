@@ -1,7 +1,7 @@
 var expect = require('chai').expect;
 var HomePage = require('../pages/home.page.js'); 
 
-describe.skip('Given an application that calculates the type of triangle', function () {
+describe('Given an application that calculates the type of triangle', function () {
   
     it('should show Equilater when all the sides are the same', function () {
         

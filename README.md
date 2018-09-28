@@ -8,10 +8,9 @@ I decided to use webdriverIO as the testing framework cause it has a nice appium
 # installation process
 ## Prerequisites
 In order to be able to run this demo the following requirements should be meet:
-* Latest version of Java JDK
-* Latest version of NodeJs
-* Latest version of npm
-* A emulated device named: AVDTest running android 9.0. Use Android Studio to download and install the corresponding sdk and to create the avd
+* Latest version of [Java JDK](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+* Latest version of [NodeJs and npm](https://nodejs.org/en/)
+* An [Android Virtual Device](https://developer.android.com/studio/run/managing-avds) named **AVDTest** running **Android 9.0.**. Use [Android Studio](https://developer.android.com/studio/) to download and install the corresponding sdk and to create the AVD
 
 ## Installation
 ```
@@ -28,3 +27,6 @@ npm run appium
 There are 2 spec files, both tests do the same with a small difference:
 * triangle.specs.js Has 3 tests with hardcoded data to validate the 3 possible scenarios for the triangle app.
 * triangle-usingddt.specs.js: Uses a pre-populated json file to drive the tests based on data. With this approach we can have a single tests running N combination of tests without adding more code.
+
+# Configuration
+The test configuration parameters are coded in *wdio.conf.js* , the logging level is set to Silent just to avoid to much information in the console.
