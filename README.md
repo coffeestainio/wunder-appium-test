@@ -2,7 +2,8 @@
 Wunder application exam
 
 # Description
-This is my demo application for Wunder. I used the TrianguloApp.apk cause it has some really simple and testable scenarios. 
+This is my demo application for Wunder. I used the TrianguloApp.apk cause it has some really simple and testable scenarios.
+I decided to use webdriverIO as the testing framework cause it has a nice appium service and support for appium commands. I tried to keep it simple so I didn't add any complex services or dependencies.
 
 # installation process
 ## Prerequisites
