@@ -1,6 +1,9 @@
 # wunder-appium-test
 Wunder application exam
 
+# Description
+This is my demo application for Wunder. I used the TrianguloApp.apk cause it has some really simple and testable scenarios. 
+
 # installation process
 ## Prerequisites
 In order to be able to run this demo the following requirements should be meet:
@@ -10,13 +13,17 @@ In order to be able to run this demo the following requirements should be meet:
 * A emulated device named: AVDTest running android 9.0. Use Android Studio to download and install the corresponding sdk and to create the avd
 
 ## Installation
-* npm i -g appium
-* npm install 
+```
+npm i -g appium
+npm install
+```
 
 ## Running the tests
-* npm run appium
+```
+npm run appium
+```
 
-#Details
+# Details
 There are 2 spec files, both tests do the same with a small difference:
 * triangle.specs.js Has 3 tests with hardcoded data to validate the 3 possible scenarios for the triangle app.
 * triangle-usingddt.specs.js: Uses a pre-populated json file to drive the tests based on data. With this approach we can have a single tests running N combination of tests without adding more code.
