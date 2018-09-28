@@ -1,0 +1,20 @@
+{
+  "name": "wunder-appium-test",
+  "version": "1.0.0",
+  "description": "Wunder application exam",
+  "scripts": {
+    "appium": "./node_modules/.bin/wdio wdio.conf.js --port 4723"
+  },
+  "author": "Pablo Calvo",
+  "license": "ISC",
+  "dependencies": {
+    "appium":"^1.9.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "wdio-appium-service": "^0.2.3",
+    "wdio-dot-reporter": "0.0.10",
+    "wdio-mocha-framework": "^0.6.3",
+    "webdriverio": "^4.13.2"
+  }
+}
